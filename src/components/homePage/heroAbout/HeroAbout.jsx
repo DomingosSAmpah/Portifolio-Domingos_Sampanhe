@@ -4,7 +4,7 @@ import { Bio } from '@/data/data'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TbBrandFacebook, TbBrandLinkedin, TbBrandGithub, TbBrandWhatsapp } from 'react-icons/tb'
 import Image from 'next/image'
-// import FotoPerfil from '../../../../public/images/me.PNG' 
+import FotoPerfil from '../../../../public/images/Eu.png' 
 import * as S from './Styles'
 
 
@@ -66,11 +66,11 @@ const HeroAbout = () => {
                     <S.HeroRightContainer>
                         <S.Img>
                             <motion.div {...ImgAnimatin}>
-                                <img 
-                                // src={FotoPerfil} 
-                                src={Bio.img} 
-                                // width={400} 
-                                // height={400} 
+                                <Image 
+                                src={FotoPerfil} 
+                                // src={Bio.img} 
+                                width={400} 
+                                height={400} 
                                 alt='my photo' 
                                 className='img'
                                 />
