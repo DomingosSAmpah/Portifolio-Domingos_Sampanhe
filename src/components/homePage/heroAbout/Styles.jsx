@@ -223,7 +223,7 @@ export const Img = styled.div`
         height: 100%;
         position: relative;
         border-radius: 50%; 
-        // border-radius: 10%;
+        /* border-radius: 10%; */
         max-width: 400px;
         max-height: 400px;
         object-fit: cover;
@@ -239,7 +239,7 @@ export const Img = styled.div`
         @media screen and (max-width: 640px){
             max-height: 300px;
             border-radius: 50%;
-            // border-radius: 5%;
+            /* border-radius: 5%; */
         }
     }
 `;
