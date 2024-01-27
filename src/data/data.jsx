@@ -45,7 +45,7 @@ export const Bio ={
             },
         ],
     resume:'https://github.com/DomingosSAmpah',
-    perfil:'/images/me.png',
+    perfil:'/images/Eu (3).png',
 }
 
 export const skills = [
