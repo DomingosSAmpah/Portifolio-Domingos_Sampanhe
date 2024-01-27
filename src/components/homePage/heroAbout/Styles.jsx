@@ -224,20 +224,20 @@ export const Img = styled.div`
         position: relative;
         border-radius: 50%; 
         /* border-radius: 10%; */
-        max-width: 400px;
-        max-height: 400px;
+        max-width: 420px;
+        max-height: 420px;
         object-fit: cover;
         object-position: center;
         border: 2px solid ${({theme}) => theme.primary};
 
         @media screen and (max-width: 768px){
-            max-width: 400px;
-            max-height: 400px;
+            max-width: 420px;
+            max-height: 420px;
             border-radius: 50%;
         }
     
         @media screen and (max-width: 640px){
-            max-height: 300px;
+            max-height: 320px;
             border-radius: 50%;
         }
     }

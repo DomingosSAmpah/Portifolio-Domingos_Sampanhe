@@ -4,8 +4,8 @@ import { Bio } from '@/data/data'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TbBrandFacebook, TbBrandLinkedin, TbBrandGithub, TbBrandWhatsapp } from 'react-icons/tb'
 import Image from 'next/image'
-// import FotoPerfil from '../../../../public/images/Eu.png' 
-import FotoPerfil from '../../../../public/images/teste.jpg' 
+import FotoPerfil from '../../../../public/images/DS.png' 
+// import FotoPerfil from '../../../../public/images/teste.jpg' 
 import * as S from './Styles'
 
 
@@ -70,8 +70,8 @@ const HeroAbout = () => {
                                 <Image 
                                 src={FotoPerfil} 
                                 // src={Bio.img} 
-                                width={400} 
-                                height={400} 
+                                width={420} 
+                                height={420} 
                                 alt='my photo' 
                                 className='img'
                                 />
