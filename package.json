@@ -21,7 +21,6 @@
     "react-player": "^2.14.0",
     "react-simple-typewriter": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
-    "react-vis": "^1.12.1",
     "redux": "^5.0.0",
     "styled-components": "^6.1.1",
     "swiper": "^11.0.5"
