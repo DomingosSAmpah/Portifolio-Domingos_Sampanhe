@@ -66,11 +66,11 @@ const HeroAbout = () => {
                     <S.HeroRightContainer>
                         <S.Img>
                             <motion.div {...ImgAnimatin}>
-                                <Image 
+                                <img 
                                 src={FotoPerfil} 
                                 // src={Bio.perfil} 
-                                width={400} 
-                                height={400} 
+                                // width={400} 
+                                // height={400} 
                                 alt='my photo' 
                                 className='img'
                                 />

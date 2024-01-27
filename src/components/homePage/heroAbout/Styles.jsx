@@ -218,7 +218,7 @@ export const Img = styled.div`
     justify-content: center;
     gap: 12px;
     origin: center;
-    .img{
+    img{
         width: 100%;
         height: 100%;
         position: relative;
