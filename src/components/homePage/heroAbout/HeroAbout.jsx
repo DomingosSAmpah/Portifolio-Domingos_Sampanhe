@@ -4,7 +4,8 @@ import { Bio } from '@/data/data'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { TbBrandFacebook, TbBrandLinkedin, TbBrandGithub, TbBrandWhatsapp } from 'react-icons/tb'
 import Image from 'next/image'
-import FotoPerfil from '../../../../public/images/Eu.png' 
+// import FotoPerfil from '../../../../public/images/Eu.png' 
+import FotoPerfil from '../../../../public/images/teste.jpg' 
 import * as S from './Styles'
 
 
