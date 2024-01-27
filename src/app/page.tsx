@@ -1,9 +1,27 @@
-import Image from 'next/image'
+'use client'
+import HeroAbout from '../components/homePage/heroAbout/HeroAbout';
+import Skills from '../components/homePage/skills/Skills'
+import Experience from '../components/homePage/experiences/Experience'
+import Projects from '../components/homePage/projects/Projects'
+import Education from '../components/homePage/education/Education'
+import Contact from '../components/homePage/contact/Contact'
+
+// styles
+import * as S from '../ui/styles' 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Entendendo meu Bug de Deploy</h1>
-    </main>
+    <>
+      <HeroAbout />
+      <S.Wrapper>
+        <Skills />
+        <Experience />
+      </S.Wrapper>
+      <Projects />
+      <S.Wrapper>
+        <Education />
+        <Contact />
+      </S.Wrapper>
+    </>
   )
 }
