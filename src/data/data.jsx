@@ -23,6 +23,7 @@ export const MenuList = [
 
 export const Bio ={
     eu: 'Domingos Sampanhe',
+    img:'/images/Eu (3).png',
     roles:[
         'Developer Web (Frontend)',
         'Digital Marketing Manager',
@@ -45,7 +46,6 @@ export const Bio ={
             },
         ],
     resume:'https://github.com/DomingosSAmpah',
-    perfil:'/images/Eu (3).png',
 }
 
 export const skills = [

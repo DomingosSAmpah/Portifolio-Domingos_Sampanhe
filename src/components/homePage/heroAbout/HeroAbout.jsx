@@ -67,8 +67,8 @@ const HeroAbout = () => {
                         <S.Img>
                             <motion.div {...ImgAnimatin}>
                                 <img 
-                                src={FotoPerfil} 
-                                // src={Bio.perfil} 
+                                // src={FotoPerfil} 
+                                src={Bio.perfil} 
                                 // width={400} 
                                 // height={400} 
                                 alt='my photo' 
