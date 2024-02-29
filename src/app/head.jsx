@@ -6,5 +6,5 @@ export default function Head() {
       <title> Portifolio | Domingos Sampanhe </title>
       <Link rel='shortcut' href='favicon.ico' type="image/x-icon"></Link>
     </>
-    )
+  )
 } 
